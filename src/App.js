@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
+import { data } from "./data"
 
-function App() {
+const App = () => {
+  // eslint-disable-next-line
+  const [cards, setCards] = useState(data)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <section>
+        <h1>ReactJS Course Website</h1>
+        {cards.map((card) => {
+          return (
+            <a href={card.link}>
+              <article key={card.id}>
+                <img src={card.image} alt={card.title} />
+                <h4>{card.title}</h4>
+              </article>
+            </a>
+          )
+        })}
+      </section>
+    </>
+  )
 }
 
-export default App;
+export default App
