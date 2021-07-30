@@ -61,4 +61,28 @@ export const data = [
     image: "./assets/blog.png",
     link: "https://tsbdesigns-blog.netlify.app",
   },
+  {
+    id: uuidv4(),
+    title: "Password Generator",
+    image: "./assets/password-generator.png",
+    link: "https://tsbdesigns-password-generator.netlify.app",
+  },
+  {
+    id: uuidv4(),
+    title: "Like Button",
+    image: "./assets/like-button.png",
+    link: "https://tsbdesigns-like-button.png",
+  },
+  {
+    id: uuidv4(),
+    title: "Progressive Web App",
+    image: "./assets/pwa.png",
+    link: "https://tsbdesigns-pwa.png",
+  },
+  {
+    id: uuidv4(),
+    title: "Electron Desktop App",
+    image: "./assets/electron.png",
+    link: "https://tsbdesigns-electron.png",
+  },
 ]
