@@ -69,12 +69,6 @@ export const data = [
   },
   {
     id: uuidv4(),
-    title: "Like Button",
-    image: "./assets/like-button.png",
-    link: "https://tsbdesigns-like-button.png",
-  },
-  {
-    id: uuidv4(),
     title: "Progressive Web App",
     image: "./assets/pwa.png",
     link: "https://tsbdesigns-pwa.png",
