@@ -85,4 +85,10 @@ export const data = [
     image: "./assets/framer-motion.png",
     link: "https://tsbdesigns-framer-motion.netlify.app",
   },
+  {
+    id: uuidv4(),
+    title: "Dashboard",
+    image: "./assets/dashboard.png",
+    link: "https://tsbdesigns-dashboard.netlify.app",
+  },
 ]
