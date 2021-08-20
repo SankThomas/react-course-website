@@ -14,14 +14,17 @@ const App = () => {
           {cards.map((card) => {
             return (
               <a href={card.link}>
-                <article key={card.id}>
+                <article
+                  key={card.id}
+                  className="bg-green-300 p-3 rounded shadow-lg transition-all duration-500 animate hover:shadow-none"
+                >
                   <img
                     src={card.image}
                     alt={card.title}
                     title={card.title}
-                    className="w-full rounded-t md:w-auto md:h-80 md:w-full lg:h-72"
+                    className="w-full rounded md:w-auto md:h-80 md:w-full lg:h-72"
                   />
-                  <h4 className="text-white font-bold uppercase tracking-widest text-sm mt-1">
+                  <h4 className="text-gray-900 font-bold tracking-wider text-base mt-1">
                     {card.title}
                   </h4>
                 </article>
