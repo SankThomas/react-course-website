@@ -34,8 +34,8 @@ export const data = [
   {
     id: uuidv4(),
     title: "YouTube Comments",
-    image: "./assets/nexus.png",
-    link: "https://tsbdesigns-nexus.netlify.app",
+    image: "./assets/youtube-comments.png",
+    link: "https://tsbdesigns-youtube-comments.netlify.app",
   },
   {
     id: uuidv4(),
