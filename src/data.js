@@ -33,7 +33,7 @@ export const data = [
   },
   {
     id: uuidv4(),
-    title: "Nexus Todo App",
+    title: "YouTube Comments",
     image: "./assets/nexus.png",
     link: "https://tsbdesigns-nexus.netlify.app",
   },
@@ -67,12 +67,12 @@ export const data = [
     image: "./assets/password-generator.png",
     link: "https://tsbdesigns-password-generator.netlify.app",
   },
-  {
-    id: uuidv4(),
-    title: "Progressive Web App",
-    image: "./assets/pwa.png",
-    link: "https://tsbdesigns-pwa.png",
-  },
+  // {
+  //   id: uuidv4(),
+  //   title: "The Mad Chatter",
+  //   image: "./assets/pwa.png",
+  //   link: "https://tsbdesigns-pwa.png",
+  // },
   {
     id: uuidv4(),
     title: "Electron Desktop App",
