@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from "uuid"
 export const data = [
   {
     id: uuidv4(),
-    title: "Birthday App",
-    image: "./assets/birthday-app.png",
+    title: "Contact List App",
+    image: "./assets/contact-list-app.png",
     link: "https://tsbdesigns-birthday-app.netlify.app",
   },
   {
