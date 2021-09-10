@@ -1,39 +1,18 @@
-import { useState } from "react"
-import { data } from "./data"
+import Cards from "./components/Cards"
+import Footer from "./components/Footer"
+import FootNote from "./components/FootNote"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 const App = () => {
-  // eslint-disable-next-line
-  const [cards, setCards] = useState(data)
   return (
-    <>
-      <section className="p-5">
-        <h1 className="text-4xl uppercase tracking-widest text-center text-white font-bold mb-10 lg:text-6xl">
-          What we'll build
-        </h1>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:max-w-6xl lg:mx-auto">
-          {cards.map((card) => {
-            return (
-              <a href={card.link}>
-                <article
-                  key={card.id}
-                  className="bg-green-300 p-3 rounded shadow-lg transition-all duration-500 animate hover:shadow-none"
-                >
-                  <img
-                    src={card.image}
-                    alt={card.title}
-                    title={card.title}
-                    className="w-full rounded md:w-auto md:h-80 md:w-full lg:h-72"
-                  />
-                  <h4 className="text-gray-900 font-bold tracking-wider text-base mt-1">
-                    {card.title}
-                  </h4>
-                </article>
-              </a>
-            )
-          })}
-        </div>
-      </section>
-    </>
+    <main className="xl:max-w-7xl xl:mx-auto">
+      <Header />
+      <Hero />
+      <Cards />
+      <FootNote />
+      <Footer />
+    </main>
   )
 }
 
