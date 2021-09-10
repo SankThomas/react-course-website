@@ -10,7 +10,7 @@ export default function Header() {
           </h2>
         </div>
 
-        <nav>
+        <nav className="mt-3 sm:mt-0">
           <ul className="flex items-center">
             <li className="mr-3">
               <a href="https://udemy.com/thomas-sankara-babu">Discussions</a>
