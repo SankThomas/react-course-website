@@ -10,8 +10,10 @@ const App = () => {
       <Header />
       <Hero />
       <Cards />
-      <FootNote />
-      <Footer />
+      <section className="px-5">
+        <FootNote />
+        <Footer />
+      </section>
     </main>
   )
 }
