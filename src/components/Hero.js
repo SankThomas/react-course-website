@@ -1,8 +1,11 @@
+import { useState } from "react"
 import hero from "../images/hero.svg"
 import Button from "./Button"
+import { data } from "../data/data"
 
 export default function Hero() {
-  const title = "15 ReactJs Projects for you"
+  const [items] = useState(data)
+  const title = `${items.length} ReactJS Projects for you`
 
   return (
     <>
