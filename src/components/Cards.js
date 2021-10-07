@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { data } from "../data/data"
-import Filter from "./Filter"
+// import Filter from "./Filter"
 
 export default function Cards() {
   // eslint-disable-next-line
@@ -14,7 +14,7 @@ export default function Cards() {
           Click on the cards to see the app demo.
         </p>
 
-        <Filter />
+        {/* <Filter /> */}
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {cards.map(({ id, title, image, link, category }) => {
